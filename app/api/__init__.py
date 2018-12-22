@@ -6,4 +6,4 @@ api =  Blueprint('api', __name__)
 rest = Api(api)
 
 
-from . import notes, users
+from . import notes

@@ -14,11 +14,13 @@
 				  				<div>
 				  					{{ note.description }}
 				  				</div>
+				  				<br>
 				  				<div>
-				  					<a href="{{ url_for('user.edit_note', note_id=note.mongo_id ) }}">Edit</a>
+				  					<a class="btn btn-primary" href="{{ url_for('user.edit_note', note_id=note.mongo_id ) }}">Edit</a>
 				  				</div>
+				  				<br>
 				  				<div>
-				  					<a href="{{ url_for('user.delete_note', note_id=note.mongo_id ) }}">Delete</a>
+				  					<a class="btn btn-primary" href="{{ url_for('user.delete_note', note_id=note.mongo_id ) }}">Delete</a>
 				  				</div>
 			  				</div>
 			  			</div>
